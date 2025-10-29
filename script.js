@@ -1,6 +1,6 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = '2214ee5ed966246123c5cfdb5cb42866'; // Replace with your Fixer API key
+    const apiKey = '2fdc80445e6ea4083f14cea64cd7ee46'; // Replace with your Fixer API key
     const baseUrl = 'http://data.fixer.io/api/';
     const symbolsUrl = `${baseUrl}symbols?access_key=${apiKey}`;
     const latestRatesUrl = `${baseUrl}latest?access_key=${apiKey}`;
@@ -50,3 +50,4 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     });
 });
+
